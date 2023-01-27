@@ -57,14 +57,30 @@ def subquadratic_multiply(x, y):
 def test_multiply():
     assert quadratic_multiply(BinaryNumber(2), BinaryNumber(2)) == 2*2
 
+# some timing functions here that will make comparisons easy    
 def time_multiply(x, y, f):
     start = time.time()
     # multiply two numbers x, y using function f
+    f(x,y)
     return (time.time() - start)*1000
     
 def compare_multiply():
-    # compare the empirical runtimes of multiplication functions
-    ### TODO - add test cases and measure runtime
+    res = []
+    for n in [10,100,1000,10000,100000,1000000,10000000,100000000,1000000000]:
+        qtime = time_multiply(BinaryNumber(n), BinaryNumber(n), quadratic_multiply)
+        subqtime = time_multiply(BinaryNumber(n), BinaryNumber(n), subquadratic_multiply)        
+        res.append((n, qtime, subqtime))
+    print_results(res)
+
+
+def print_results(results):
+    print("\n")
+    print(
+        tabulate.tabulate(
+            results,
+            headers=['n', 'quadratic', 'subquadratic'],
+            floatfmt=".3f",
+            tablefmt="github"))
     
     
 
