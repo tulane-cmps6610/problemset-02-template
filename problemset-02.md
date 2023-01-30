@@ -60,6 +60,11 @@ and push to your github repository.
 .  
 .  
   * $T(n)=T(\sqrt{n})+1$
+.  
+.  
+.  
+.  
+.  
 
 
 2. Suppose that for a given task you are choosing between the following three algorithms:
@@ -86,7 +91,8 @@ and push to your github repository.
   conquer algorithm for integer multiplication. This algorithm takes
   as input two $n$-bit strings $x = \langle x_L, x_R\rangle$ and
   $y=\langle y_L, y_R\rangle$ and computes the product $xy$ by using
-  the fact that $xy = 2^{n/2}x_Ly_L + 2^{n/2}(x_Ly_R+x_Ry_L) + x_Ry_R.$ Write the algorithm specification in SPARC. Then, use the
+  the fact that $xy = 2^{n/2}x_Ly_L + 2^{n/2}(x_Ly_R+x_Ry_L) +
+  x_Ry_R.$ Write the algorithm specification in SPARC. Then, use the
   stub functions in `main.py` to implement two algorithms for integer
   multiplication: a divide and conquer algorithm that runs in
   quadratic time, and the Karatsaba-Ofman algorithm running in
