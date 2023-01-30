@@ -4,7 +4,7 @@
 
 In this assignment we'll work on applying the methods we've learned to analyze recurrences, and also see their behavior
 in practice. As with previous
-assignments, some of of your answers will go in `main.py`.. You
+assignments, some of of your answers will go in `main.py`. You
 should feel free to edit this file with your answers; for handwritten
 work please scan your work and submit a PDF titled `assignment-02.pdf`
 and push to your github repository.
