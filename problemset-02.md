@@ -1,4 +1,4 @@
-# CMPS 2200 Problem Set 2
+# CMPS 2200 Problem Set 02
 
 **Name:**_________________________
 
