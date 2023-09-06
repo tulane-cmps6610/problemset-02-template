@@ -1,6 +1,6 @@
 """
-CMPS 2200  Assignment 2.
-See assignment-02.pdf for details.
+CMPS 6610  Problem Set 2
+See problemset-02.pdf for details.
 """
 import time
 
@@ -55,7 +55,7 @@ def subquadratic_multiply(x, y):
 
 ## Feel free to add your own tests here.
 def test_multiply():
-    assert quadratic_multiply(BinaryNumber(2), BinaryNumber(2)) == 2*2
+    assert binary2int(quadratic_multiply(BinaryNumber(2), BinaryNumber(2))) == 2*2
 
 # some timing functions here that will make comparisons easy    
 def time_multiply(x, y, f):
