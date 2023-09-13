@@ -78,7 +78,7 @@ and push to your github repository.
 .  
 
 
-2. Suppose that for a given task you are choosing between the following three algorithms:
+3. Suppose that for a given task you are choosing between the following three algorithms:
 
 	* Algorithm $\mathcal{A}$ solves problems by dividing them into
       two subproblems of one fifth of the input size, recursively
@@ -91,12 +91,13 @@ and push to your github repository.
 	* Algorithm $\mathcal{C}$ solves problems of size $n$ by dividing
       them into a subproblems of size $n/3$ and a subproblem of size
       $2n/3$, recursively solving each subproblem, and then combining
-      the solutions in $O(n^1.1)$ time.
+      the solutions in $O(n^{1.1})$ time.
 
-    What is the work and span of these algorithms?
+    What is the work and span of these algorithms? For the span, just
+    assume that it is the same as the work to combine solutions.
     Which algorithm would you choose? Why?
 
-3. Suppose that for a given task you are choosing between the following three algorithms:
+4. Suppose that for a given task you are choosing between the following three algorithms:
 
 	* Algorithm $\mathcal{A}$ solves problems by dividing them into
       five subproblems of half the size, recursively solving each
@@ -111,12 +112,13 @@ and push to your github repository.
       each subproblem, and then combining the solutions in $O(n^2)$
       time.
 
-    What is the work and span of these algorithms?
+    What is the work and span of these algorithms? For the span, just
+    assume that it is the same as the work to combine solutions.
     Which algorithm would you choose? Why?
 
 
 
-*4. In class we discussed two algoriths for integer multiplication. The
+*5. In class we discussed two algoriths for integer multiplication. The
   first algorithm was simply a recapitulation of the "grade school"
   algorithm for integer multiplication, while the second was the
   Karatsaba-Ofman algorithm. For this problem, you will use the stub
