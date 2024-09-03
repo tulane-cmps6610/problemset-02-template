@@ -118,7 +118,7 @@ and push to your github repository.
 
 
 
-*5. In class we discussed two algoriths for integer multiplication. The
+5. In Module 2 we discussed two algoriths for integer multiplication. The
   first algorithm was simply a recapitulation of the "grade school"
   algorithm for integer multiplication, while the second was the
   Karatsaba-Ofman algorithm. For this problem, you will use the stub
