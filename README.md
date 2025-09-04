@@ -5,8 +5,8 @@ In this assignment, you will practice solving recurrences and implement the Kara
 To complete this assignment, follow the instructions in [problemset-02.md](problemset-02.md) ([PDF version](problemset-02.pdf)). Below you'll find important and useful information about submitting your work, using git, and testing your code. 
 
 ## Turning in your work
-- You may discuss problems with classmates, but all submitted work must be your own. 
-- Once you have pushed your final submission to GitHub, go to Canvas and submit a link to your repository to the Canvas assignment for this recitation. 
+- You must work individually to complete this assignment.
+- Once you have pushed your final submission to GitHub, go to Canvas and submit a link to your repository to the Canvas assignment. 
 
 ## Using Git 
 - [Clone] your assignment repository to your local device.
