@@ -5,11 +5,8 @@ In this assignment, you will practice solving recurrences and implement the Kara
 To complete this assignment, follow the instructions in [problemset-02.md](problemset-02.md) ([PDF version](problemset-02.pdf)). Below you'll find important and useful information about submitting your work, using git, and testing your code. 
 
 ## Turning in your work
-- You may work with a partner to complete this assignment.
-- Only one team member needs to push your completed lab to github. 
-- At the top of `main.py` and in the `answers.md` file, **include the names of both** team members.
+- You may discuss problems with classmates, but all submitted work must be your own. 
 - Once you have pushed your final submission to GitHub, go to Canvas and submit a link to your repository to the Canvas assignment for this recitation. 
-  - Submit to Canvas in group with your partner.
 
 ## Using Git 
 - [Clone] your assignment repository to your local device.
@@ -38,7 +35,7 @@ To complete this assignment, follow the instructions in [problemset-02.md](probl
 
 ## About Markdown
 
-We use Markdown extensively in these recitations. Markdown is a great way to easily add formatting to simple text documents.
+Markdown is a great way to easily add formatting to simple text documents.
 
 Here is a [cheatsheet] for markdown syntax.
 
