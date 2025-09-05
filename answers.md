@@ -2,10 +2,9 @@
 ## Answers
 
 **Name:**_________________________
-**Name:**_________________________
 
 
-Place all written answers from `problemset-02.md` here for easier grading.
+Place all written answers from `assignment-01.md` here for easier grading.
 
 1. **Asymptotic notation**
 
@@ -13,5 +12,6 @@ Place all written answers from `problemset-02.md` here for easier grading.
 
 3. **More Algorithm Selection** 
  
-*4. **Integer Multiplication Timing Results**
+4. **Integer Multiplication Timing Results**
 
+5. **Black Hats and White Hats**
